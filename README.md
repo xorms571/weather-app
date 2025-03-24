@@ -7,8 +7,8 @@
 프론트엔드와 백엔드의 데이터를 어떻게 주고받는지 이해하는 데 중점을 두었습니다.
 
 This project is a simple **Weather App** built with **PHP**.  
-→ Provides real-time weather information using the **OpenWeather API**,  
-allowing you to check the temperature, humidity, and weather description for specific cities in South Korea.
+Provides real-time weather information using the **OpenWeather API**,  
+allowing you to check the temperature, humidity, and weather description for specific cities in South Korea.  
 The project was created to gain experience with utilizing **Open APIs**,  
 focusing on understanding how data is exchanged between the frontend and backend.
 
