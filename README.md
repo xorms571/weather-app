@@ -10,15 +10,10 @@ The project was created to gain experience with utilizing **Open APIs**, focusin
 
 ## 🛠️ 기술 스택 (Tech Stack)
 
-- **Frontend**
-  - HTML5 / CSS3 / SCSS
-  - JavaScript (Vanilla JS)
-  
-- **Backend**
-  - PHP
-  
-- **API**
-  - OpenWeather API
+- HTML5 / CSS3 / SCSS
+- JavaScript (Vanilla JS)
+- PHP
+- OpenWeather API
 
 ## 📌 주요 기능 (Features)
 
