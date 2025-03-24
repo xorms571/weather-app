@@ -1,0 +1,25 @@
+@use "mixin" as m;
+
+body {
+  font-family: "Montserrat", "Noto Sans KR", sans-serif;
+  font-size: 1em;
+  color: m.$navy-blue;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  height: 100vh;
+  background-color: m.$light-blue;
+  &::before{
+    content: "";
+    display: block;
+    height: 100%;
+    background-image: url(../img/main/weather-icos.gif);
+    background-size: 100%;
+    opacity: .2;
+    animation: bg-move 600s linear infinite;
+  }
+}
+@keyframes bg-move {
+  0%{background-position: 0 0;}
+  100%{background-position: -600% -600%;}
+}

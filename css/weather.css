@@ -1,0 +1,26 @@
+section.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  height: 100%;
+  border-radius: 15px;
+  background: #8dd4ff;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+}
+section.weather h1 img {
+  height: 70px;
+  filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+}
+section.weather .day-btns {
+  /* day-btns.scss */
+}
+section.weather .svg-container {
+  /* svg-container.scss */
+}
+section.weather .copyRight img {
+  height: 50px;
+  filter: drop-shadow(1px 1px 0 rgba(0, 0, 0, 0.4));
+}/*# sourceMappingURL=weather.css.map */

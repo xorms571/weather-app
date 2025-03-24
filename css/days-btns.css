@@ -1,0 +1,51 @@
+section.weather div.days-btns {
+  height: 50px;
+  display: flex;
+  justify-self: center;
+}
+section.weather div.days-btns button {
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section.weather div.days-btns button b {
+  font-weight: 700;
+}
+section.weather div.days-btns button time {
+  font-size: 0.8em;
+  height: 20px;
+  line-height: 20px;
+}
+section.weather div.days-btns button.active {
+  background: white;
+  border-radius: 10px;
+  filter: drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.5));
+}
+section.weather div.apm-btns {
+  position: absolute;
+  left: 50%;
+  top: 83%;
+  transform: translateX(-50%);
+  display: flex;
+  border: 2px solid #2179a5;
+  border-radius: 10px;
+  overflow: hidden;
+  filter: drop-shadow(0 0 10px #fff);
+}
+section.weather div.apm-btns button {
+  font-size: 0.8em;
+  background: #fff;
+  width: 45px;
+  height: 30px;
+  line-height: 30px;
+}
+section.weather div.apm-btns button:not(:last-child) {
+  border-right: 1px solid #eee;
+}
+section.weather div.apm-btns button.active {
+  color: #fff;
+  font-weight: 700;
+  background: #2179a5;
+}/*# sourceMappingURL=days-btns.css.map */

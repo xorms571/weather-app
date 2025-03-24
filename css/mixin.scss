@@ -1,0 +1,62 @@
+$lg: 'screen and (min-width:1000px)';
+$max-lg: 'screen and (max-width:1000px)';
+$md: 'screen and (min-width:500px) and (max-width:1000px)';
+$sm: 'screen and (max-width:500px)';
+$min-sm: 'screen and (min-width:500px)';
+$light-blue: #8dd4ff;
+$dark-blue: #2179a5;
+$navy-blue: #33495f;
+
+@mixin icon($psuedo, $unicode) {
+  &::#{$psuedo} {
+    content: $unicode;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@mixin pos-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@mixin cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@mixin scrollbar{
+  @media (hover:hover){
+    &::-webkit-scrollbar-track
+    {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+    }
+    &::-webkit-scrollbar
+    {
+      width: 10px;
+      background-color: #F5F5F5;
+    }
+    &::-webkit-scrollbar-thumb
+    {
+      background-color: $dark-blue; 
+      border-radius: 10px;
+    }
+  }
+}

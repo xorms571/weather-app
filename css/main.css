@@ -1,0 +1,50 @@
+.app {
+  position: fixed;
+  width: min(100%, 550px);
+  height: min(100%, 800px);
+  background: #33495f;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 665px;
+  min-width: 370px;
+  overflow: hidden;
+  overflow-y: auto;
+  padding: 10px;
+}
+@media screen and (min-width:1000px) {
+  .app {
+    border-radius: 20px;
+  }
+}
+@media (hover: hover) {
+  .app::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+  }
+  .app::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+  }
+  .app::-webkit-scrollbar-thumb {
+    background-color: #2179a5;
+    border-radius: 10px;
+  }
+}
+.app .loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #33495f;
+  transition: opacity 1s;
+}
+.app .loader img {
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

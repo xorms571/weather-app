@@ -1,0 +1,50 @@
+section.weather .svg-container {
+  position: relative;
+  width: min(100%, 460px);
+}
+section.weather .svg-container .korea-map-svg {
+  width: 100%;
+}
+section.weather .svg-container .korea-map-svg rect.svg-map-bg {
+  fill: #8dd4ff;
+}
+section.weather .svg-container .korea-map-svg .svg-map-shadow {
+  fill: #2179a5;
+}
+section.weather .svg-container .korea-map-svg g.svg-map > * {
+  fill: #fff;
+  stroke: #eee;
+  stroke-width: 2px;
+}
+section.weather .svg-container .markers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+section.weather .svg-container .markers button {
+  position: absolute;
+  width: 40px;
+  padding: 3px;
+  border-radius: 20px;
+  border: 1px solid #8dd4ff;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(238, 238, 238, 0.5);
+  font-weight: 800;
+  font-size: 0.7em;
+  transition: all 0.3s;
+}
+section.weather .svg-container .markers button span {
+  filter: drop-shadow(0 0 0 rgb(255, 255, 255));
+}
+section.weather .svg-container .markers button span em {
+  font-size: 1em;
+}
+section.weather .svg-container .markers button span img {
+  width: 25px;
+  border-radius: 5px;
+  margin: 3px 0;
+}/*# sourceMappingURL=svg-container.css.map */

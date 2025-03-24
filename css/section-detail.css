@@ -1,0 +1,64 @@
+.detail {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  transform: translateX(100%);
+  transition: transform 0.3s;
+  z-index: 2;
+}
+.detail.active {
+  transform: translateX(0%);
+}
+.detail .inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 90%;
+}
+.detail .inner p {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.7);
+}
+.detail .inner p span {
+  width: 10px;
+  margin-right: 5px;
+}
+.detail .inner p em {
+  margin: 0 7px;
+  font-weight: 700;
+}
+.detail .inner p b {
+  font-weight: 700;
+  font-size: 0.9em;
+  margin: 0 3px;
+  padding: 3px 7px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #33495f;
+}
+.detail .inner .wind-deg {
+  margin-left: 2px;
+  font-size: 0.8em;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.detail .close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+}/*# sourceMappingURL=section-detail.css.map */

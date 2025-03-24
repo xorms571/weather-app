@@ -1,0 +1,31 @@
+@use "mixin" as m;
+section.weather{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  height: 100%;
+  border-radius: 15px;
+  background: m.$light-blue;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  h1{
+    img{
+      height: 70px;
+      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
+    }
+  }
+  .day-btns{
+    /* day-btns.scss */
+  }
+  .svg-container{
+    /* svg-container.scss */
+  }
+  .copyRight{
+    img{
+      height: 50px;
+      filter: drop-shadow(1px 1px 0 rgba(0, 0, 0, 0.4));
+    }
+  }
+}
