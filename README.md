@@ -17,7 +17,7 @@ focusing on understanding how data is exchanged between the frontend and backend
 - HTML5 / CSS3 / SCSS
 - JavaScript (Vanilla JS)
 - PHP
-- OpenWeather API
+- OpenWeather API  
   https://openweathermap.org/
 
 ## 📌 주요 기능 (Features)
