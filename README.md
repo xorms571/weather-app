@@ -20,9 +20,7 @@ focusing on understanding how data is exchanged between the frontend and backend
 
 ## 📌 주요 기능 (Features)
 
-- 검색한 도시의 현재 날씨 정보 제공  
-  → Current weather data by searching for a city  
+- 한국 내 각 도시의 현재 날씨 정보 제공  
+  → Displays current weather data for a predefined city in Korea  
 - 온도, 습도, 날씨 설명 등 표시  
-  → Displays temperature, humidity, and weather description  
-- 직관적이고 반응형 UI  
-  → Simple and responsive user interface  
+  → Displays temperature, humidity, and weather description 
