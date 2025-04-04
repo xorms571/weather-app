@@ -1,4 +1,5 @@
 # 🌤️ 날씨 앱 (Weather App)
+웹 링크: http://xorms3610.dothome.co.kr/weather/
 
 이 프로젝트는 **PHP**를 활용한 간단한 날씨 앱입니다.  
 **OpenWeather API**를 사용하여 실시간 날씨 정보를 제공하며,  
